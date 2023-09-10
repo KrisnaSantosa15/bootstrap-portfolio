@@ -61,3 +61,23 @@ document.addEventListener("DOMContentLoaded", function () {
     );
   });
 })();
+
+// Function to load the high-quality image when it comes into view
+// function lazyLoad() {
+//   const highQualityImage = document.getElementById("high-quality-image");
+//   if (highQualityImage) {
+//     const observer = new IntersectionObserver((entries, observer) => {
+//       entries.forEach((entry) => {
+//         if (entry.isIntersecting) {
+//           const image = entry.target;
+//           image.src = image.getAttribute("data-src");
+//           observer.unobserve(image);
+//         }
+//       });
+//     });
+//     observer.observe(highQualityImage);
+//   }
+// }
+
+// // Call the lazyLoad function when the page is fully loaded
+// window.addEventListener("load", lazyLoad);

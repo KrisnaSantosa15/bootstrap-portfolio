@@ -1,0 +1,1394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UML Diagrams </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../../Assets/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../Assets/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../Assets/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../Assets/Favicon/site.webmanifest">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="bg-transparent">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="../../index.html">
+              <img src="../../Assets/Logo/K-logos_black.png" alt="Krisna Santosa" height="50" width="50" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-capitalize" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html">home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../../index.html">about writer</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">category</a>
+                </li>
+              </ul>
+              <ul class="d-flex navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <button class="btn btn-outline-primary shadow-primary" data-bs-toggle="modal" data-bs-target="#contactMe" data-bs-whatever="krisnasantosa@upi.edu">Contact Me</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <div class="image-news py-3">
+        <div class="mx-3 text-center">
+            <img src="./Uploads/uml-diagram.jpg" alt="UML Diagrams" class="img-fluid shadow rounded-3">
+        </div>
+    </div>
+    
+    <!-- Content -->
+    <div class="content">
+        <div class="detail-berita py-3 pb-5">
+            <div class="container">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Articles</li>
+                </ol>
+            </nav>
+
+                <div class="row">
+                    <div class="col-12 col-md-9">
+                        <div class="row">
+                            <h2>Taksonomi UML Diagram: Pengertian, Jenis-jenis, dan Simbol yang Sering Digunakan.</h2>
+                        </div>
+                        <div class="row py-3 g-0 align-items-center">
+                            <div class="col-2 col-lg-1">
+                                <img src="../../Assets/Logo/K-logos_black.png" alt="Logo" class="img-fluid rounded-2 d-inline shadow" style="width: 50px;">
+                            </div>
+                            <div class="col-10 col-lg-11">
+                                <p class="text-dark-emphasis d-inline">Article by Krisna Santosa * Tuesday, 05 Sept 2023 | <span class="text-danger"> Tech </span> 5 minutes read</p>
+                            </div>
+                        </div>
+
+                        <!-- Automatic Table Of Contents -->
+                        <div class="py-3">
+                          <ol id="toc">Table of Contents</ol>
+                        </div>
+
+                        <!-- Article Content -->
+                        <div class="news-text py-3 border-bottom text-dark-emphasis" id="article-content">
+
+                        
+
+                        <p>
+                            Krisna Santosa - 2209092
+                        </p>
+                        <p>
+                            RPL - 3B: Perancangan dan Pemodelan Perangkat Lunak
+                        </p>
+                        <p>
+                            TAKSONOMI UML (Unified Modeling Language)
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <h2>
+                            Apa itu UML?
+                        </h2>
+                        <p>
+                            UML (Unified Modeling Language) adalah sebuah bahasa pemodelan yang digunakan untuk merepresentasikan desain/model dari perangkat lunak yang akan dibangun, tujuannya adalah untuk memudahkan&nbsp;developer dalam mengembangkan software yang sesuai dengan alur dan kebutuhan pengguna. UML dibagi menjadi 2 bagian diagram:
+                        </p>
+                        <h3>
+                            <strong>Structure Diagram</strong>
+                        </h3>
+                        <p>
+                            Diagram yang digunakan untuk menggambarkan struktur statis suatu sistem atau bagian dari suatu sistem. Diagram ini digunakan untuk menunjukkan organisasi dan hubungan antara berbagai elemen dalam suatu sistem. Berikut macam-macam diagram yang ada dalam structure diagram:
+                        </p>
+                        <ol>
+                            <li>
+                                <strong>Class Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Diagram kelas memodelkan struktur statis suatu sistem. Diagram ini menunjukkan hubungan antara kelas, objek, atribut, dan operasi.&nbsp;Class Diagram juga membantu kita mengidentifikasi hubungan antara kelas atau objek yang berbeda. Berikut elemen-elemen yang ada dalam&nbsp;Class Diagram:
+                        </p>
+                        <ol style="list-style-type:lower-latin;">
+                            <li>
+                                Class
+                            </li>
+                        </ol>
+                        <p>
+                            Blueprint untuk sebuah objek dan mengimplementasikan perilaku dalam suatu sistem. Dalam UML,&nbsp;class mewakili sebuah objek atau sekumpulan objek yang memiliki struktur dan perilaku yang sama. Mereka diwakili oleh persegi panjang yang berisi baris nama&nbsp;class, atributnya, dan operasinya. &nbsp;&nbsp;
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh3.googleusercontent.com/Q9thtO_TFnaDkPWlDe2Rkmkz7_R_SD-NEi371-KQzC9LTkyY2P0p6xW9J3nf8SxYGcmFQZRx9iXtL8SFN-53BiZUOX6ToWXhNF229WBDKvc1w7tFxjl2bwNI5s4hAgDOvpJV--cGnMH9N3wmojbsRPA" alt="Class diagram classes" width="243" height="143">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="2">
+                            <li>
+                                Associations
+                            </li>
+                        </ol>
+                        <p>
+                            Associations merepresentasikan hubungan antar kelas. Panah yang menjadi simbol&nbsp;associations menunjukkan bagaimana kelas terhubung atau berinteraksi satu sama lain.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="3">
+                            <li>
+                                Composition and Aggregation
+                            </li>
+                        </ol>
+                        <p>
+                            Composition and Aggregation adalah jenis asosiasi yang mewakili hubungan sebagian-keseluruhan antar kelas. Aggregation menyiratkan hubungan yang lebih lemah, sedangkan&nbsp;composition menyiratkan hubungan yang lebih kuat dengan ketergantungan siklus hidup.
+                        </p>
+                        <p>
+                            <img class="image_resized" style="margin-left:0px;margin-top:0px;width:52.6%;" src="https://lh6.googleusercontent.com/_OU11BqUx6T1WrjumwJsY_SgNvsBu8p9BymV0_6dzru1OvyoyYJBTYIZoBD4x6jX09KAg8XKKnO2eRPl1gMSdOmTHLyG7uNkk5uMgw0__4nf_MBiC74n4s5BMmo3rYYspn0LnWRS1Bh5Yr0m621ZJIk" alt="Class diagram composition aggregation" width="143" height="140"> &nbsp;
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="4">
+                            <li>
+                                Generalization
+                            </li>
+                        </ol>
+                        <p>
+                            Generalization adalah nama lain dari&nbsp;Inheritance. Ini mengacu pada hubungan antara dua kelas di mana satu kelas adalah versi khusus dari kelas lainnya. Misalnya Honda adalah salah satu jenis mobil. Jadi kelas Honda tentu mempunyai hubungan generalisasi dengan kelas mobil.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="5">
+                            <li>
+                                Interfaces
+                            </li>
+                        </ol>
+                        <p>
+                            Interfaces menentukan kontrak yang harus dipatuhi oleh kelas dengan menerapkan metode yang ditentukan. Mereka direpresentasikan sebagai lingkaran dengan nama antarmuka di dalam lingkaran.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="6">
+                            <li>
+                                Dependencies
+                            </li>
+                        </ol>
+                        <p>
+                            Dependencies menunjukkan bagaimana satu kelas bergantung pada kelas lain, biasanya dalam hal pemanggilan metode atau tipe parameter. Mereka diwakili oleh panah putus-putus.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="7">
+                            <li>
+                                Enumerations
+                            </li>
+                        </ol>
+                        <p>
+                            Enumerations mewakili sekumpulan nilai atau konstanta bernama. Mereka biasanya digambarkan sebagai kelas dengan daftar nilai enumerasi.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="8">
+                            <li>
+                                Packages
+                            </li>
+                        </ol>
+                        <p>
+                            Bentuk yang dirancang untuk mengatur pengklasifikasi terkait dalam diagram. Mereka dilambangkan dengan bentuk persegi panjang bertab besar.
+                        </p>
+                        <ol start="2">
+                            <li>
+                                <strong>Object Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            menunjukkan sekumpulan objek dan hubungannya, yang merupakan snapshot statis dari contoh hal-hal yang ditemukan dalam diagram kelas. Berikut elemen-elemennya:
+                        </p>
+                        <ol style="list-style-type:lower-latin;">
+                            <li>
+                                Object
+                            </li>
+                        </ol>
+                        <p>
+                            Setiap objek disimbolkan seperti persegi panjang, yang memberi nama objek dan kelasnya digarisbawahi serta dipisahkan dengan titik dua.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="2">
+                            <li>
+                                Attributes
+                            </li>
+                        </ol>
+                        <p>
+                            Mirip dengan kelas, Anda dapat membuat daftar atribut objek di dalam kompartemen terpisah. Namun, tidak seperti kelas, atribut objek harus memiliki nilai yang ditetapkan untuknya.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="3">
+                            <li>
+                                Links
+                            </li>
+                        </ol>
+                        <p>
+                            Links merepresentasikan hubungan antar objek satu sama lain.
+                        </p>
+                        <ol start="3">
+                            <li>
+                                <strong>Package Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Package Diagram&nbsp;digunakan untuk mengilustrasikan bagaimana paket dan elemennya diatur. Ini menunjukkan ketergantungan antara paket-paket yang berbeda. Berikut elemennya:
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh5.googleusercontent.com/TjjDt9TIed7AXEpPBMmGfNJPkSuy751zYfFLlrYshKzVyLgutiVbVquiZwHHBFgwtBBlRoyQ9nJCB285v7DBV2jI4Pw5poVq9CLm-ssSUNOgBKXiV0tQz0MpKScIcsWpPCPI192GE0Gk0ClhKRldBVM" width="461" height="267">
+                        </p>
+                        <p>
+                            Dalam Package Diagram terdapat diagram tambahan yang digunakan sebagai layer yaitu Model Diagram.&nbsp;
+                        </p>
+                        <ol start="3">
+                            <li>
+                                1. <strong>Model diagram&nbsp;</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Diagram struktur tambahan UML yang menunjukkan beberapa abstraksi atau tampilan spesifik dari suatu sistem, untuk menggambarkan beberapa aspek arsitektur, logika, atau perilaku dari sistem.
+                        </p>
+                        <p>
+                            <img class="image_resized" style="margin-left:0px;margin-top:0px;width:71.42%;" src="https://lh6.googleusercontent.com/K4bUcITl0TQcjA3VTwVRCg3IyGTmPml1PhGfT9TaWU2OVoqGI1_HF0V647SlGYF7Y1X3oNuVUQGKjCOEBAZUWjtb0Hb8WaVUE3aIekmfSv8t9-0qTqeknblig_kAsHeRVFZCdfGE8BCp3qiN0QBhKKk" width="411" height="407">
+                        </p>
+                        <ol start="4">
+                            <li>
+                                <strong>Composite Structure Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Memberikan gambaran logis dari seluruh atau sebagian sistem perangkat lunak. Ini bertindak mendefinisikan kelas konfigurasi, antarmuka, paket, dan hubungan di antara mereka pada tingkat mikro. Berikut elemennya:
+                        </p>
+                        <p>
+                            <img class="image_resized" style="margin-left:0px;margin-top:0px;width:56.66%;" src="https://lh4.googleusercontent.com/eMH6C14oAab9xiIqYEPMsgWmNxtPcQBMZmd2yIIjtqDx97-4RQQxUzdKf6Lm6QLP-_rGtaW6kbKJoW5LDYUrK6oswyGvyZF5rqKWbhSZtyp7rYBIV4dsqVek2OaRyuMv2GI32NlN_ii5TqrNHz9dnXE" width="309" height="652">
+                        </p>
+                        <p>
+                            Composite Structure diagram mampu menunjukkan:
+                        </p>
+                        <ol start="4">
+                            <li>
+                                1. <strong>Internal Structure</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            menunjukkan struktur internal pengklasifikasi - penguraian pengklasifikasi tersebut menjadi properti, bagian, dan hubungannya.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh5.googleusercontent.com/E9Owj7uskvvm_0cCPD2iNGknm6GqpXlAWoqlPRS079bmtwgqY3Qv1amhTzYuyV22Q1s-aV3HQt2hDPATsuLE0q7C0ZG2OVcxZ8j5ykSvxdbMgFDZKAIgEcb4A6P3gXaGaSeZlhRqVTl2qDVNiFqdg-Q" width="337" height="247">
+                        </p>
+                        <ol start="4">
+                            <li>
+                                2. <strong>Behavior of a Collaboration (Collaboration use diagram)</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            fungsionalitas yang akan diterapkan oleh sistem yang sedang dirancang atau yang sudah diterapkan oleh beberapa sistem yang ada. Objek-objek dalam suatu sistem biasanya bekerja sama satu sama lain untuk menghasilkan perilaku suatu sistem.
+                        </p>
+                        <p>
+                            <img class="image_resized" style="margin-left:0px;margin-top:0px;width:55.15%;" src="https://lh3.googleusercontent.com/Q_C82jhZmQVWedtgVFQ74TEbCPFlOXgA8j12TJ6Hx90yu8h-DafBQ6MbxtVRlu5TKeWUS0s4owxWIpYVFxOptOKTTMZuynsjiTl9uVRGWirPA3aL-a-q8WH_OwJZqdcG04-rxnT6pdaH5QVYicL8YqI" width="312" height="174">
+                        </p>
+                        <ol start="5">
+                            <li>
+                                <strong>Component Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Menggambarkan organisasi komponen fisik dalam sistem. Ini digunakan untuk memodelkan detail eksekusi. Ini menentukan apakah persyaratan fungsional yang diinginkan telah dipertimbangkan oleh pengembangan yang direncanakan atau tidak, karena ini menggambarkan hubungan struktural antara elemen-elemen sistem perangkat lunak. Berikut elemennya
+                        </p>
+                        <p>
+                            <img class="image_resized" style="margin-left:0px;margin-top:0px;width:56.48%;" src="https://lh5.googleusercontent.com/XE6bcLBqAYFqpx_zqGW85PmLNnmOMwCoN73I3jmYlz8vh1m55-38piHtGkyETvGP3BPE8Z7R7RjktuKNxPYUxDMX1gLdbBaFaK8Ae2N23bnv9AynzAnFA6xuuAnUX3_fLjb3vkHRqfa5PXou4hqN1lc" width="352" height="704">
+                        </p>
+                        <ol start="6">
+                            <li>
+                                <strong>Deployment Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Diagram ini menunjukkan komponen perangkat keras (node) dan perangkat lunak (artefak) serta hubungannya. Ini menawarkan representasi visual tentang di mana tepatnya setiap komponen perangkat lunak diterapkan. Berikut elemennya:
+                        </p>
+                        <ol style="list-style-type:lower-latin;">
+                            <li>
+                                Nodes
+                            </li>
+                        </ol>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh3.googleusercontent.com/vE5fTh0XoDpX6_svIkILrFRrGWZ9M_nfL_9XK_Ux06KGagt3hOpuLVpLwN2G6LSae7GceJAovcKBVCRvZGagxNasep2s2A3qADFquBv1dZsG-w5Gh3MKnWYNehXnhxT3BPerQ2sn271Lxov7EhCMSD8" alt="Deployment Diagram Tutorial - Node Shapes" width="93" height="94">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="2">
+                            <li>
+                                Database
+                            </li>
+                        </ol>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh5.googleusercontent.com/UPCmYmHNJQFIAtNJcmHiliLIyUCAInyT5KZ24X_zSQvixDJeIrPHppsAjOUvTSgfg9NNRkOWZBqJnDJKjCjZpQ-DfeEMebVAFDEf8QWjgt-qADxRKGLtoRwDJk7u9FIXFvkXsXvsvoTHXPIqA6Z0dzg" alt="Deployment Diagram Tutorial - Database Shape" width="140" height="150">
+                        </p>
+                        <p>
+                            Berikut contoh penggunaan dari Deployment Diagram:
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh5.googleusercontent.com/Y0hly4FYJ9brlWBQTekQoC_s81nXZK9G0wZcH4bsXif152jOlPK0Fpb-f3-XKykcuXFR2mc55rjebTOc7kAiNi5TYozy-ULZ9WN6k-F50SN_b0H1YxoObS1Qs9E1_dhdH-_lzL3Ibi7d4QdR7buDV0s" width="347" height="182">
+                        </p>
+                        <p>
+                            Dalam diagram ini terdapat manifestation diagram yang berfungsi untuk abstraksi hubungan, berikut contohnya:
+                        </p>
+                        <ol start="6">
+                            <li>
+                                1. <strong>Manifestation Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh6.googleusercontent.com/5LWG2nmt7PMKSDtLUGWZKESJf5-jEiPW4gTIJKvXWhadtmd3W8ErCgHXhbI-Gn8O9n0q06JHXbRA04T39TBtxysZVMT1gyorameixECu24ogmadVM4vokj2IyUDDZb074sAim4cGp7IbUoznny9pxyo" width="316" height="188">
+                        </p>
+                        <p>
+                            Deployment diagram sangat berhubungan erat dengan&nbsp;Network Architecture Diagram karena menunjukkan node jaringan dan jalur komunikasi di antara mereka. Berikut elemennya:
+                        </p>
+                        <ol start="6">
+                            <li>
+                                2.<strong> Network Architecture</strong>
+                            </li>
+                        </ol>
+                        <ul>
+                            <li>
+                                Network Devices
+                                <ul>
+                                    <li>
+                                        Hub
+                                    </li>
+                                    <li>
+                                        Switch
+                                    </li>
+                                    <li>
+                                        Router
+                                    </li>
+                                    <li>
+                                        Load Balancer
+                                    </li>
+                                    <li>
+                                        Firewall
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Network Segments
+                                <ul>
+                                    <li>
+                                        Backbone
+                                    </li>
+                                    <li>
+                                        Multihoming
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ol start="7">
+                            <li>
+                                Profile Diagram
+                            </li>
+                        </ol>
+                        <p>
+                            Diagram profil membantu membuat properti dan semantik baru untuk diagram UML dengan mendefinisikan&nbsp;custom stereotypes, tagged value, dan&nbsp;constraint.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh6.googleusercontent.com/jEHVKYhdkMMj0E3X-OHKK9KTCIoiQ0mJDNVpJio1KlBtBwpn972xvakTV_JnP7nmXvVJeHGFH2VFBIHOmBxmXBG1ilwDSNdkyxNWoqLUt3zA9zTyp17toyp5oXziSyyyGLjw3vkg9glmvoSB-LgCkmc" width="385" height="313">
+                        </p>
+                        <h3>
+                            Behavior Diagram
+                        </h3>
+                        <p>
+                            Behavior Diagram adalah kategori diagram yang berfokus pada tingkah laku atau interaksi elemen dalam sistem. Berbeda dengan&nbsp;Structure Diagram, yang menggambarkan struktur statis suatu sistem,&nbsp;Behavior Diagram&nbsp;menggambarkan bagaimana sistem berfungsi, merespons&nbsp;events, dan berkomunikasi dengan lingkungan atau komponen internalnya. Berikut macam-macam diagram dalam Behavior Diagram:
+                        </p>
+                        <ol>
+                            <li>
+                                <strong>UseCase Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Use Case Diagram digunakan untuk menggambarkan fungsionalitas suatu sistem atau bagian dari suatu sistem. Mereka banyak digunakan untuk menggambarkan kebutuhan fungsional sistem dan interaksinya dengan agen eksternal (aktor). Use case pada dasarnya adalah diagram yang mewakili berbagai skenario di mana sistem dapat digunakan. Diagram use case memberi kita pandangan tingkat tinggi tentang apa yang dilakukan sistem atau bagian dari sistem tanpa membahas detail implementasi. Berikut elemen yang ada dalam UseCase Diagram:
+                        </p>
+                        <ol style="list-style-type:lower-latin;">
+                            <li>
+                                Actors
+                            </li>
+                        </ol>
+                        <p>
+                            Seorang aktor menggambarkan setiap entitas yang melakukan peran tertentu dalam sistem tertentu. Berbagai peran yang diwakili oleh aktor adalah peran bisnis sebenarnya dari pengguna dalam sistem tertentu.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh3.googleusercontent.com/-TrFrDAcUix6_V8tym2_HxHpeT1DrwY0JYkQaXmbYBbrZPCC12Q2o8-NeHBD5gXC791_NxLUCeJxr9QsFFAKQaXEqEtzqkImPVFqgu3qp1ceC1IPVpZF1IveqSTmn8lDMM-2DLMNJ3yuf8MkBxSLyB4" width="153" height="81">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="2">
+                            <li>
+                                Use Case
+                            </li>
+                        </ol>
+                        <p>
+                            Sebuah use case mewakili fungsionalitas tertentu atau unit kerja terpisah yang disediakan sistem kepada penggunanya. Kasus penggunaan digambarkan sebagai oval dengan nama di dalamnya.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh5.googleusercontent.com/WbmBHn282vTmqXZY_uoDAwS3hRZsMcALd9up2ONeRuo3wNPY6HgJUrGnXWk56NZ5aq9YDvoVptB6CpnfclboK1eHfho3y1s1BeMDPTWPq8Q4PSSHIzqcJ3hjnSq691jqOEHgpQbe7-eflsWn--lVHRo" width="259" height="65">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="3">
+                            <li>
+                                System Boundary
+                            </li>
+                        </ol>
+                        <p>
+                            Batas sistem adalah kotak persegi panjang yang melingkupi semua kasus penggunaan yang terkait dengan sistem tertentu. Ini secara visual mendefinisikan ruang lingkup sistem.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh4.googleusercontent.com/oOj980LWark-0uTBWE9wEBcFPvIuwwk1upCWbjIYQFOdnJwgNGlw1YzQi-fCc-toEdxUbjdoo4HLPdBeobJH9oxoXLZLDrVBuX0oDOMY_uYGXGjG8c_0tSFMEpof8eErsHFMDKRUvDwTAPuR2WsB-Rs" width="259" height="192">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="4">
+                            <li>
+                                Relationship
+                            </li>
+                        </ol>
+                        <ul>
+                            <li>
+                                Include
+                            </li>
+                        </ul>
+                        <p>
+                            Hubungan include digunakan untuk menunjukkan bahwa satu use case menyertakan use case lainnya. Artinya, use case yang disertakan selalu dijalankan sebagai bagian dari use case dasar. Hubungan penyertaan diwakili oleh panah putus-putus dengan stereotip "sertakan".
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh3.googleusercontent.com/uGK08LYQc9XLwcNlLdw0SmMtSYlwfcrjyx0svGNtP4RDDhopTP3uSL2E78IMWrPYyIaC1rHelgzU8gokUw4plvZktJIwmFcj1ry9Y7vyFmXAGonmhbhLLvOKVIC6tvoUo7L-sW6bYGhpOLn-AyilxIg" width="264" height="102">
+                        </p>
+                        <ul>
+                            <li>
+                                Extends
+                            </li>
+                        </ul>
+                        <p>
+                            Hubungan perluasan digunakan untuk menunjukkan bahwa satu use case dapat memperluas use case lainnya dalam kondisi tertentu. Artinya, kasus penggunaan yang diperluas bersifat opsional dan dapat menambahkan perilaku tambahan ke kasus penggunaan dasar. Hubungan perluasan diwakili oleh panah putus-putus dengan stereotip "perluas".
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh6.googleusercontent.com/giZGG8rhUmC4BcD03pLSQn10K_8eD2b8fKxdRyagkr3ZBE_nQljyDe3tH-_nj0Qg_E8Z4u56RJahjeKsTVZ3D2Lplt04m-Bp0Y68aPEZrcdy4p9ggv1XKk0vKTUs8-99faBUxdAqTZWJzL4CKOk2KJ4" width="146" height="133">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="5">
+                            <li>
+                                Generalization
+                            </li>
+                        </ol>
+                        <p>
+                            Hubungan generalisasi juga merupakan hubungan orangtua-anak antara kasus penggunaan. Kasus penggunaan anak dalam hubungan generalisasi memiliki makna proses bisnis yang mendasarinya, namun merupakan peningkatan dari kasus penggunaan induk. Dalam diagram use case, generalisasi ditampilkan sebagai panah berarah dengan mata panah segitiga. Kasus penggunaan anak terhubung di dasar panah. Ujung panah terhubung ke use case induk.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh4.googleusercontent.com/QjvnAGjRJhCmm628FB_JoCqil2iTiD2VnwgMjZK4JJMXuMl4VzAJbmIQhKrNMvAd7SWwhfJKswQkJxjAH-lTh_eVf564_SCIaOEliFWeX1WCVRzstXuB2boG4tM7FKvudNjat8aO4vEcRjHLFjoABuc" width="212" height="149">
+                        </p>
+                        <ol start="2">
+                            <li>
+                                <strong>Information Flow Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Menunjukkan pertukaran informasi antara entitas sistem pada beberapa tingkat abstraksi yang tinggi. Arus informasi mungkin berguna untuk menggambarkan sirkulasi informasi melalui suatu sistem dengan mewakili aspek-aspek model yang belum sepenuhnya ditentukan atau dengan rincian yang kurang. Elemennya sebagai berikut:
+                        </p>
+                        <ol style="list-style-type:lower-latin;">
+                            <li>
+                                Actors
+                            </li>
+                        </ol>
+                        <p>
+                            Entitas yang melakukan peran tertentu dalam sebuah sistem.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="2">
+                            <li>
+                                Information Item
+                            </li>
+                        </ol>
+                        <p>
+                            Item informasi adalah pengklasifikasi yang mewakili beberapa informasi yang ditransfer dalam sistem dari sumber ke target aliran informasi.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="3">
+                            <li>
+                                Information Flow
+                            </li>
+                        </ol>
+                        <p>
+                            hubungan terarah yang digunakan sebagai spesifikasi semacam "saluran informasi" untuk transmisi informasi searah dari sumber ke sasaran.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="4">
+                            <li>
+                                Class
+                            </li>
+                        </ol>
+                        <p>
+                            Kelas adalah pengklasifikasi yang mendeskripsikan sekumpulan objek yang memiliki kesamaan.
+                        </p>
+                        <p>
+                            Berikut contoh dari Information Flow Diagram
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh5.googleusercontent.com/TTD0v5DCj1BMXb_SjKZgyTPnljq_Sdzl4ojadF_IpLQIbpiQtooY4YUiVgzUV97ybJ32fY7bCxBjk3YSW0MmH_CGoUAiG3fOgvsXq84sSfWbTBe6v3ZSFWYmj6O4DdBXXsXr3YIv_pSzWADthcLH6RE" width="362" height="163">
+                        </p>
+                        <ol start="3">
+                            <li>
+                                <strong>Activity Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Diagram aktivitas mewakili alur kerja secara grafis. Mereka dapat digunakan untuk menggambarkan alur kerja bisnis atau alur kerja operasional komponen apa pun dalam suatu sistem.
+                        </p>
+                        <p>
+                            Elemen yang terdapat dalam diagram ini berupa:
+                        </p>
+                        <p>
+                            <img class="image_resized" style="margin-left:0px;margin-top:0px;width:80.45%;" src="https://lh5.googleusercontent.com/_acQfmnl00Tme2CMRClWznJfZqwknmw1RoIevbcyDHhGXBBDVdxZOvbfPXSeRRKjxbioud_V4twb5bC9XfgBe6dviLB5ftNPTM08gu1OlhNnq1lCInn-W9q6REieXy7ChN45rEVU2REUURsG1BaP46U" width="524" height="394">
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh5.googleusercontent.com/h5uO7FfpPmDJyQXlR4hGD-5XSrflDszC6JwfnXbGfXwL-Z45iJtya43qmGGdQIfVQkjHsFmK3G73xZTJ2p-pI7-gAJ3TyFK2YDKF-QcYN3xsqBZ0vgVuQ5REW-gu-nIMQV5b4m4O4gRyrtdjwU2vyPo" width="550" height="402">
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh6.googleusercontent.com/59f2djcQ_pUMg5jQrnqdsR5vz8xYMmd5CzHkSnb8HM2sGF962_DF8QzUcpdtgdYVV5Yv6jqULiL_5ztR1zvZ9gQ85-9dJfa6cW88Cyym_xIZ6rW7KggEr5tXZXFaJM0YdHk3QDxJScJwZPAlyFMDwp8" width="537" height="151">
+                        </p>
+                        <ol start="4">
+                            <li>
+                                <strong>State Machine Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Digunakan untuk menggambarkan perilaku yang bergantung pada keadaan suatu objek. Suatu objek memberikan respons yang berbeda terhadap peristiwa yang sama tergantung pada keadaannya. Terdapat 2 jenis State Machine Diagram yaitu:
+                        </p>
+                        <ol start="4">
+                            <li>
+                                1.<strong> Behavioral State Machine Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Spesialisasi perilaku dan digunakan untuk menentukan perilaku diskrit dari bagian sistem yang dirancang melalui transisi keadaan terbatas.
+                        </p>
+                        <ol start="4">
+                            <li>
+                                2. <strong>Protocol State Machine Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Diagram Protocol State Machine adalah jenis diagram UML (Unified Modeling Language) khusus yang berfokus pada pemodelan perilaku objek atau entitas yang mematuhi protokol atau pola komunikasi tertentu.
+                        </p>
+                        <p>
+                            Elemen yang terdapat dalam&nbsp;State Machine Diagram adalah:
+                        </p>
+                        <ol style="list-style-type:lower-latin;">
+                            <li>
+                                Composite State
+                            </li>
+                        </ol>
+                        <p>
+                            State yang memiliki substate di dalamnya.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="2">
+                            <li>
+                                Choice Pseudostate
+                            </li>
+                        </ol>
+                        <p>
+                            Simbol berlian yang menunjukkan kondisi dinamis dengan potensi hasil bercabang.
+                        </p>
+                        <p>
+                            <img class="image_resized" style="margin-left:0px;margin-top:0px;width:18.88%;" src="https://lh5.googleusercontent.com/URhJP8rBrpCzYpAg6RSA4r4-S0Uxt3wlpQ7YTR32G5srzduEmsY5eHtzGOwPrOGfV6kt8DiVPnpMp7f0N2lxpwTZHNyjwR3QufW6bOE0Z9TmRS5JqZn7xhVyg0zUbXqxkmbuopiVw-JKT7nQTKnpIJ4" alt="State Diagram Symbols - Choice Pseudostate" width="72" height="71">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="3">
+                            <li>
+                                Event
+                            </li>
+                        </ol>
+                        <p>
+                            Event adalah trigger atau pemicu yang akan memulai suatu state ke state berikutnya.
+                        </p>
+                        <p>
+                            <img class="image_resized" style="margin-left:0px;margin-top:0px;width:44.52%;" src="https://lh4.googleusercontent.com/nbOjHYYn8dJl8XM25WA1FLqBNrMtpW-OzqPwH7cubO0DYyk8KFujD9lHjJYAvZdNkXnAfIrwQITeqp03oxzX7N-n5TUlnwBVrnHneWsKqltOF-jBfngulRvS_hRSYbPTKPfZn3G6QNA6AmcGDDTB-Ck" alt="State Diagram Symbols - Event Shape" width="310" height="88">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="4">
+                            <li>
+                                Exit Point
+                            </li>
+                        </ol>
+                        <p>
+                            Titik di mana suatu objek keluar dari composite state.
+                        </p>
+                        <p>
+                            <img class="image_resized" style="margin-left:0px;margin-top:0px;width:14.59%;" src="https://lh4.googleusercontent.com/Rtgt5qH3O6dM4tcwuMvFiSTa6dhd1FIvKIMPMGDpS4SrrGWiEJq38nEL1lT73I6hZr3x3HZbdUSKDuxoIcEDBzFw5CIAUTmtanWCrUQZXl5wMmOBCKDLszgncBUOQrKk0DKHiRI7dpM1_ySr-dd7RIU" alt="State Diagram Symbols - Exit Point" width="70" height="52">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="5">
+                            <li>
+                                First State
+                            </li>
+                        </ol>
+                        <p>
+                            Penanda untuk keadaan pertama dalam proses, ditunjukkan dengan lingkaran hitam dengan panah transisi.
+                        </p>
+                        <p>
+                            <img class="image_resized" style="margin-left:0px;margin-top:0px;width:15.1%;" src="https://lh3.googleusercontent.com/iaSNJFL1E2EuzWb_8Sp0nW3hKYgKlBotCs6O6aUlplfZX8y2M8YyQ8aRZ9KD-rpe5LCY1ejuRcPLeuI33pNapgePwBQIyGFP_e9SVsXQxFIDLpXuYRVOzZy_qEQbS1WFDK3vFuoUzE1sFgDE6xHjp6c" alt="State Diagram Symbols - First State" width="87" height="96">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="6">
+                            <li>
+                                Guard
+                            </li>
+                        </ol>
+                        <p>
+                            Kondisi Boolean yang mengizinkan atau menghentikan transisi, ditulis di atas panah transisi.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="7">
+                            <li>
+                                State
+                            </li>
+                        </ol>
+                        <p>
+                            State mewakili suatu kondisi atau mode dimana suatu objek atau sistem dapat berada pada suatu titik waktu tertentu. States digambarkan sebagai persegi panjang membulat dan memiliki nama deskriptif. Objek atau sistem dapat bertransisi antar keadaan sebagai respons terhadap peristiwa atau kondisi.
+                        </p>
+                        <p>
+                            <img class="image_resized" style="margin-left:0px;margin-top:0px;width:26.13%;" src="https://lh4.googleusercontent.com/jOun13_UqFYvU7yqvn-9BKBRwZEmcCOP0Gfa6HK4sG1Bx41yONGROMsD-LZmJ7d4l1XbwOEjDPbwU0YpYkJSp1nQdfj5TCwxlqMalQjh4kU30tIUQTeQh5hr0YwTn3lqvfrSDMY5Ig1x5ewaN_Xc9L4" alt="State Diagram Symbols - State Shape" width="169" height="92">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="8">
+                            <li>
+                                Substate
+                            </li>
+                        </ol>
+                        <p>
+                            State yang memiliki keterhubungan dengan state parent-nya.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="9">
+                            <li>
+                                Terminator
+                            </li>
+                        </ol>
+                        <p>
+                            Lingkaran dengan titik di dalamnya yang menandakan bahwa suatu proses dihentikan.
+                        </p>
+                        <p>
+                            <img class="image_resized" style="margin-left:0px;margin-top:0px;width:12.34%;" src="https://lh6.googleusercontent.com/U7t4DsgKu3mXtqSd5OT31RqpFIl1W7UED7NwT1EGYFvIFpLXkdsdhxuwqvOua5ouiZpK-m_tVWl9TNaGx1XzzlJVfO08_YVulrhpke477JqzuhlNZ3skYs7pY51E4_ihVlKnu5fIka7Dw4_DmrpzxsM" alt="State Diagram Symbols - Terminator Shape" width="70" height="70">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="10">
+                            <li>
+                                Transition
+                            </li>
+                        </ol>
+                        <p>
+                            Panah yang bergerak dari satu keadaan ke keadaan lain yang menunjukkan keadaan yang berubah.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh4.googleusercontent.com/J-Fmws__Gqxsx2ayjpRr2qCJjQQ5NDf1uOO_1RlAAEVuujsvn_NvzyiX_jqGcNyTn_NQ5dh58L3jFRyZgH0QH-dhDDZkvqnGe9SF_dX1b63cSNGSI8xprkTglyJFYKrEb6JTVlt3w50Mhs4W6033n_4" alt="State Diagram Symbols - Transition Shape" width="416" height="80">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="11">
+                            <li>
+                                Transitional Behavior
+                            </li>
+                        </ol>
+                        <p>
+                            Perilaku yang dihasilkan ketika suatu keadaan bertransisi, ditulis di atas panah transisi.
+                        </p>
+                        <ol start="5">
+                            <li>
+                                <strong>Interaction Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Diagram interaksi adalah kategori diagram UML (Unified Modeling Language) yang digunakan untuk memvisualisasikan dan memodelkan interaksi dinamis antara objek atau komponen dalam suatu sistem. Berikut beberapa macam diagram untuk menggambarkan interaksi antara objek dengan komponen lainnya:
+                        </p>
+                        <ol start="5">
+                            <li>
+                                1. <strong>Sequence Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Sequence Diagram adalah jenis diagram UML (Unified Modeling Language) yang digunakan untuk memvisualisasikan dan memodelkan interaksi dan urutan pesan yang dipertukarkan antara objek atau komponen dalam suatu sistem dari waktu ke waktu. Diagram urutan memberikan representasi rinci tentang perilaku dinamis suatu sistem, menekankan urutan kronologis interaksi. Berikut simbol atau notasi yang sering digunakan dalam&nbsp;Sequence Diagram:
+                        </p>
+                        <ol style="list-style-type:lower-latin;">
+                            <li>
+                                Lifeline
+                            </li>
+                        </ol>
+                        <p>
+                            Sequence Diagram terdiri dari beberapa notasi Lifeline yang harus disusun secara horizontal di bagian atas diagram. Tidak ada dua notasi lifeline yang saling tumpang tindih. Mereka mewakili objek atau bagian berbeda yang berinteraksi satu sama lain dalam sistem selama pengurutan.
+                        </p>
+                        <p>
+                            <img class="image_resized" style="margin-left:0px;margin-top:0px;width:22.86%;" src="https://lh4.googleusercontent.com/49DiJVGbNYFCgFbiIuqJCzADhmUbFrhpSPgcHwa0s46x4JyrxWxh9dpe1w1c78u_mY0DQhEtiNI5-auNxKi7ZC3bawhYgRQm7XnZcpWevZkb5Obn-JkUlltTfCNZbavBk2-xw9ku3uCMT_AXW1r-Oyo" width="171" height="174">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="2">
+                            <li>
+                                Activation Bars
+                            </li>
+                        </ol>
+                        <p>
+                            kotak yang ditempatkan pada Lifeline. Ini digunakan untuk menunjukkan bahwa suatu objek aktif (atau dipakai) selama interaksi antara dua objek. Panjang persegi panjang menunjukkan durasi objek tetap aktif.
+                        </p>
+                        <p>
+                            <img class="image_resized" style="margin-left:0px;margin-top:0px;width:58.21%;" src="https://lh3.googleusercontent.com/wUwtV-lwsjoClVo7vsoHRuIYTMM-A55oqrpogEUS5jEXwJUGvCxwByWEsObwZ-tvq6Yc8jX_cSgB_-o27BJCUkjPeHJBQs2V2QA1cKq5VZx2UdWovQfy6_7-R2tsdwaIpHHGAgDmDNiwDbidhOCcD-c" width="340" height="157">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="3">
+                            <li>
+                                Messages
+                            </li>
+                        </ol>
+                        <ul>
+                            <li>
+                                Synchronous Message
+                            </li>
+                        </ul>
+                        <p>
+                            Simbol ini digunakan ketika pengirim harus menunggu respon terhadap pesan sebelum melanjutkan. Diagram harus menunjukkan panggilan dan balasannya.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh6.googleusercontent.com/Ax7H1gcnZFuWRoM1UxXEaT9jM8XNkYFX9Tl6x0rIi3UEg4CDclGB1ahTmc0x7i5hA3lYY5_UpPgQbEyEpT4NtqEi3ngJvnpGgZoQXb8YFH7JdjLbp_OtJ5B6y2FuvJyBjADKSNp_eEgMTNizf5Lihko" width="129" height="65">
+                        </p>
+                        <ul>
+                            <li>
+                                Asynchronous Message
+                            </li>
+                        </ul>
+                        <p>
+                            Pesan asinkron tidak memerlukan respons sebelum pengirim melanjutkan. Hanya panggilan yang harus disertakan dalam diagram.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh5.googleusercontent.com/Nd8MNiZC_ysW-DoZs2DN4EfdnIRy0y0z1YmGTlr8dk8SMOqjfI_lD900-Xo7h46Y8B8GTNIK1EKolk5ozvErI1W3rTlA9Hdr1jzqy88a-E6ifX5TC9XH-xlpKVDS2ays6iYQ8PcnrSNZpPk_NzosoHI" width="129" height="65">
+                        </p>
+                        <ul>
+                            <li>
+                                Return Message
+                            </li>
+                        </ul>
+                        <p>
+                            Digunakan untuk menunjukkan bahwa penerima pesan telah selesai memproses pesan dan mengembalikan kendali ke pemanggil pesan.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh5.googleusercontent.com/pvzIc3V-lRw7v25zgteJ2G7YFCT5x0a19Gvbxyh4fsZM7RdrPk5ijkGlqQpBIoVZCQNKmZwWmbN3e2HXSCnkJQH1bS1CD8-SD3lRKwBsOLkVpm7CXJExx1RWP53lSQrKi1GPQdvyTsnHPM6FwrQ6J9A" width="282" height="206">
+                        </p>
+                        <ul>
+                            <li>
+                                Self Message
+                            </li>
+                        </ul>
+                        <p>
+                            Mewakili pesan di mana suatu objek mengirimkan pesan ke dirinya sendiri.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh4.googleusercontent.com/6KjqzHsbvm8UWm5yBxtTlHGEkxDJ-NzTCUQSPduBxeP9XFxXJeAoc4xqUc5lw3gdeXheRdx9jqMFDqaehVfqWTvZ0K_BMiU2alCPOpyCB-seKQCv_X1aAWTksViOIT5q0pUnjZMxV1K-UrZuS3vy7G8" width="163" height="131">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="4">
+                            <li>
+                                Interaction Use (Fragment)
+                            </li>
+                        </ol>
+                        <p>
+                            Digunakan untuk mewakili rangkaian interaksi yang dapat digunakan kembali, seperti sub-interaksi atau interaksi yang ditentukan sebelumnya. Mereka memungkinkan enkapsulasi perilaku dalam diagram urutan.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="5">
+                            <li>
+                                Combined Fragment
+                            </li>
+                        </ol>
+                        <p>
+                            Fragmen gabungan digunakan untuk memodelkan aliran kontrol yang kompleks dan perilaku bersyarat dalam diagram urutan. Mereka mencakup opsi seperti fragmen alternatif, paralel, dan loop.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="6">
+                            <li>
+                                Operand
+                            </li>
+                        </ol>
+                        <p>
+                            Operand digunakan dalam gabungan fragmen untuk menentukan kondisi atau batasan di mana interaksi tertentu terjadi dalam fragmen.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="7">
+                            <li>
+                                Guard Condition
+                            </li>
+                        </ol>
+                        <p>
+                            Kondisi penjaga adalah ekspresi boolean yang terkait dengan pesan atau fragmen. Ini menentukan kondisi yang harus dipenuhi agar pesan dapat dikirim atau agar fragmen dapat dieksekusi.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="8">
+                            <li>
+                                Activation (Creation/Deletion)
+                            </li>
+                        </ol>
+                        <p>
+                            Digunakan untuk mewakili pembuatan dan penghapusan objek selama interaksi. Simbol-simbol ini biasanya ditempatkan pada garis hidup untuk menunjukkan kapan suatu objek dibuat dan kapan objek tersebut dihapus.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh4.googleusercontent.com/irFkCeF1-1tlzOvsWZY0QQ83tMS4mMf6VEbZ-vomE5322YzFcmXJeOVmeEL7kJ7Rqo7RkmKwVZ1_Rgs8JQsq5OXIFF3rJl0EOZIh18P6cbILhmSAnEppHysC3gKzsyGrWfWiEhI3CpNPxlxTY1LgehA" width="501" height="341">
+                        </p>
+                        <ol start="5">
+                            <li>
+                                2. <strong>Communication Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Diagram komunikasi (disebut diagram kolaborasi dalam UML 1.x) adalah sejenis diagram interaksi UML yang menunjukkan interaksi antara objek dan/atau bagian (direpresentasikan sebagai garis hidup) menggunakan pesan berurutan dalam susunan bentuk bebas.
+                        </p>
+                        <p>
+                            Elemennya adalah:
+                        </p>
+                        <ol style="list-style-type:lower-latin;">
+                            <li>
+                                Frame
+                            </li>
+                        </ol>
+                        <p>
+                            Diagram komunikasi dapat ditampilkan dalam bingkai persegi panjang dengan nama pada kompartemen di sudut kiri atas.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh3.googleusercontent.com/ZGP6jivZk8t6I26pvncbLiLrR4iaaMd5yQB1zyayZSHSSmT-ie4ZEKU71iq6qQUA8K7fru7Zzy43VAWGuQVXhtv8UKqdOQNloEr6nYgIQ-wRv3hiANVIcJLcJjNCUug98-A0nMg32AgIAloA6knelGA" width="264" height="142">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="2">
+                            <li>
+                                Lifeline
+                            </li>
+                        </ol>
+                        <p>
+                            Lifeline adalah spesialisasi elemen bernama yang mewakili peserta individu dalam interaksi. Meskipun bagian dan fitur struktural mungkin memiliki multiplisitas lebih besar dari 1, garis hidup hanya mewakili satu entitas yang berinteraksi.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh4.googleusercontent.com/0G2iMaDvqumQArV4qYxIpgpUvbHxi2Se6gHisch8GkT3_SNEx8mDHSqWbail0KCErrIPjE4PBn65YCTJGV9FfIu5WKf1pyhHEe3kETEk6PQ7Hi5Sw9j_5O15m5GYpknMHP-hAALY6bBSl7pLj2XrEMU" width="325" height="328">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="3">
+                            <li>
+                                Message
+                            </li>
+                        </ol>
+                        <p>
+                            Pesan dalam diagram komunikasi ditampilkan sebagai garis dengan ekspresi urutan dan panah di atas garis. Panah menunjukkan arah komunikasi.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh3.googleusercontent.com/TLtaDKUW6W3lUcNa1RBYN3Rwl9JR1nmLcZFsYWFaLoBPOv_xx84_brjRp-EoFDOQZax7LzY222ok2rOiPeJD-DN-VigHhgf54KQZgKrmYTUS8wvuVqbKbh4NcnOM-4XZhCrcnuJY2VhZERI4yxFMYP8" width="487" height="114">
+                        </p>
+                        <ol start="5">
+                            <li>
+                                3. <strong>Timing Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Timing Diagram adalah diagram interaksi UML yang digunakan untuk menunjukkan interaksi ketika tujuan utama diagram adalah untuk mempertimbangkan waktu. Timing Diagram fokus pada kondisi yang berubah di dalam dan di antara Lifeline sepanjang sumbu waktu linier. Timing Diagram menggambarkan perilaku pengklasifikasi individu dan interaksi pengklasifikasi, memusatkan perhatian pada waktu peristiwa yang menyebabkan perubahan dalam kondisi yang dimodelkan pada Lifeline. Berikut Elemennya:
+                        </p>
+                        <ol style="list-style-type:lower-latin;">
+                            <li>
+                                Lifeline
+                            </li>
+                        </ol>
+                        <p>
+                            mewakili instance individual dari suatu kelas, objek, atau komponen selama periode waktu tertentu.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh6.googleusercontent.com/vMD6687FHFFlv96mr8d9fu8mGiXMwt4PONeSwF1it03drVJ4y6s1qig7rEVnLsVSjYU0dGB4hARluC3wH0NhBxpiNuji1ELateCES0OTtBpYDULiSrdlzagKcSl6HTIo_Y3ihjbpatdtP2to6cbLHrA" width="198" height="145">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="2">
+                            <li>
+                                State or Condition Timeline
+                            </li>
+                        </ol>
+                        <p>
+                            Menunjukkan keadaan pengklasifikasi atau atribut yang berpartisipasi, atau beberapa kondisi yang dapat diuji, seperti nilai atribut yang terpisah atau dapat dihitung.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh6.googleusercontent.com/niuxhjmeK6wgrb8iXDUPI1HoNCa-m6gsqg-B0eSeJsTuclSCYq8Y3mLOrLmBCEOo5QmVMF-CjV4dO3O4mdtytyLJDSQP0xanNM5LrDRfft4kIe5lLQwQ9F02itNfhomF_URdUcx6FUZK6n6FPGhud4w" width="249" height="134">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="3">
+                            <li>
+                                Duration Constraint
+                            </li>
+                        </ol>
+                        <p>
+                            Batasan interval yang mengacu pada interval durasi. Interval durasi adalah durasi yang digunakan untuk menentukan apakah batasan terpenuhi.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh3.googleusercontent.com/8Iwwv3HMuQHrFthP9Lj0NWZPRcqKgF6ZTAqdRVdfa_ZZy9J2QEStO5pu4zTDDZrT3hw-kqTTsWJVGGSmZ36HAOckp2X7zrOoddYjrqAkTihjKmpm09WxTA16NFK3yEQh02TduUdYnuZvSmb2_1eL7L0" width="284" height="173">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="4">
+                            <li>
+                                Time Constraint
+                            </li>
+                        </ol>
+                        <p>
+                            Batasan interval yang mengacu pada suatu interval waktu. Interval waktu adalah ekspresi waktu yang digunakan untuk menentukan apakah batasan terpenuhi.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh5.googleusercontent.com/oL-1ShMBLMu3-JtJHwiZ78KKlyvXv4M5_-rfwbS_b6rTx5c8VYizEOJNDyV2h6ztULuInN6xNXtBW64GQ_gjkMrXLmB6qPs6GH2ELX-jHYeFASuXB9nAdIUZET9TeLaWSG-AB73AZykYzOWnob-kVVk" width="290" height="141">
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="5">
+                            <li>
+                                Destruction Occurrence
+                            </li>
+                        </ol>
+                        <p>
+                            mewakili titik waktu ketika suatu objek atau entitas dihancurkan atau tidak ada lagi.
+                        </p>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh6.googleusercontent.com/QLrMZWFriFiQB0OAvRvkRgfoI6pVtfp78Bn4czP_GMXnU-wQ65g7nc2sxcMp06Z56KR3g1omElySU8o1BZa4gw3KlifcRYJvuEoIR9oDeceEE1gur64DVnZyBzHe1XKVAA-HbU7hcAiI5KRy8EfItkk" width="284" height="173">
+                        </p>
+                        <ol start="5">
+                            <li>
+                                4.<strong> Interaction Overview Diagram</strong>
+                            </li>
+                        </ol>
+                        <p>
+                            Interaction Overview Diagram memberikan gambaran aliran kendali di mana simpul-simpul aliran tersebut merupakan interaksi atau penggunaan interaksi. Elemennya adalah:
+                        </p>
+                        <ol style="list-style-type:lower-latin;">
+                            <li>
+                                Frame
+                            </li>
+                        </ol>
+                        <p>
+                            Bentuk persegi panjang yang membungkus elemen-elemen lain dalam diagram.
+                        </p>
+                        <ol style="list-style-type:lower-latin;" start="2">
+                            <li>
+                                Elements of Activity Diagram
+                            </li>
+                        </ol>
+                        <p>
+                            Diagram ikhtisar interaksi didefinisikan sebagai spesialisasi diagram aktivitas dan karenanya mewarisi sejumlah elemen grafis. Berikut beberapa elemen yang digunakan:
+                        </p>
+                        <ul>
+                            <li>
+                                initial node
+                            </li>
+                            <li>
+                                flow final node
+                            </li>
+                            <li>
+                                activity final node
+                            </li>
+                            <li>
+                                decision node
+                            </li>
+                            <li>
+                                merge node
+                            </li>
+                            <li>
+                                fork node
+                            </li>
+                            <li>
+                                join node
+                            </li>
+                        </ul>
+                        <ol style="list-style-type:lower-latin;" start="3">
+                            <li>
+                                Element of Interaction Diagram
+                            </li>
+                        </ol>
+                        <p>
+                            Berikut beberapa elemen yang digunakan:
+                        </p>
+                        <ul>
+                            <li>
+                                interaction
+                            </li>
+                            <li>
+                                interaction use
+                            </li>
+                            <li>
+                                duration constraint
+                            </li>
+                            <li>
+                                time constraint
+                            </li>
+                        </ul>
+                        <p>
+                            <img style="max-width:100%; max-height:100%; margin-left:0px;margin-top:0px;" src="https://lh4.googleusercontent.com/cf2GJy2yxjT-kZ6iOI2gSnrDTxq8IVrzGuoer45hM1O9JLUFkxBuQqwTxiDExtLo3ZVHrWDrNW24tEJoDPSBFCfIszF7DNDKYArvaylS1Qlcc-KSEzfiL4cm7dcNgXTaqss1RGYy9z6KueI4aqAGMCY" width="556" height="467">
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            REFERENSI
+                        </p>
+                        <p>
+                            <a style="text-decoration:none;" href="https://www.dicoding.com/blog/apa-itu-uml/">https://www.dicoding.com/blog/apa-itu-uml/</a>
+                        </p>
+                        <p>
+                            <a style="text-decoration:none;" href="https://www.microsoft.com/en-us/microsoft-365/business-insights-ideas/resources/guide-to-uml-diagramming-and-database-modeling">https://www.microsoft.com/en-us/microsoft-365/business-insights-ideas/resources/guide-to-uml-diagramming-and-database-modeling</a>
+                        </p>
+                        <p>
+                            <a href="https://www.geeksforgeeks.org/unified-modeling-language-uml-introduction/">https://www.geeksforgeeks.org/unified-modeling-language-uml-introduction/</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            Class Diagram:
+                        </p>
+                        <p>
+                            <a href="https://www.lucidchart.com/pages/uml-class-diagram">https://www.lucidchart.com/pages/uml-class-diagram</a>
+                        </p>
+                        <p>
+                            <a href="https://www.smartdraw.com/class-diagram/">https://www.smartdraw.com/class-diagram/</a>
+                        </p>
+                        <p>
+                            <a href="https://www.javatpoint.com/uml-diagrams">https://www.javatpoint.com/uml-diagrams</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            Object diagram:
+                        </p>
+                        <p>
+                            <a href="https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-object-diagram/">https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-object-diagram/</a>
+                        </p>
+                        <p>
+                            <a href="https://www.edrawmax.com/article/uml-object-diagram-explained.html">https://www.edrawmax.com/article/uml-object-diagram-explained.html</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            Package Diagram:
+                        </p>
+                        <p>
+                            <a href="https://www.lucidchart.com/pages/uml-package-diagram">https://www.lucidchart.com/pages/uml-package-diagram</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            Composite Structure Diagram:
+                        </p>
+                        <p>
+                            <a href="https://www.lucidchart.com/pages/uml-composite-structure-diagram">https://www.lucidchart.com/pages/uml-composite-structure-diagram</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            Components Diagram:
+                        </p>
+                        <p>
+                            <a href="https://www.lucidchart.com/pages/uml-component-diagram">https://www.lucidchart.com/pages/uml-component-diagram</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            Deployment Diagram:
+                        </p>
+                        <p>
+                            <a href="https://www.lucidchart.com/pages/uml-deployment-diagram">https://www.lucidchart.com/pages/uml-deployment-diagram</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            Profile Diagram
+                        </p>
+                        <p>
+                            <a href="https://www.uml-diagrams.org/network-architecture-diagrams.html">https://www.uml-diagrams.org/network-architecture-diagrams.html</a>
+                        </p>
+                        <p>
+                            <a href="https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-profile-diagram/">https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-profile-diagram/</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            Network Architecture Diagram
+                        </p>
+                        <p>
+                            <a href="https://www.uml-diagrams.org/network-architecture-diagrams.html">https://www.uml-diagrams.org/network-architecture-diagrams.html</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            UseCase Diagram:
+                        </p>
+                        <p>
+                            <a href="https://www.e-education.psu.edu/geog468/l8_p4.html">https://www.e-education.psu.edu/geog468/l8_p4.html</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            Information Flow Diagram:
+                        </p>
+                        <p>
+                            <a href="https://www.uml-diagrams.org/information-flow-diagrams.html">https://www.uml-diagrams.org/information-flow-diagrams.html</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            Activity Diagram:
+                        </p>
+                        <p>
+                            <a href="https://creately.com/guides/activity-diagram-tutorial/">https://creately.com/guides/activity-diagram-tutorial/</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            State Machine Diagram:
+                        </p>
+                        <p>
+                            <a href="https://www.lucidchart.com/pages/uml-state-machine-diagram">https://www.lucidchart.com/pages/uml-state-machine-diagram</a>
+                        </p>
+                        <p>
+                            <a href="https://www.uml-diagrams.org/protocol-state-machine-diagrams.html#protocol-state-machine">https://www.uml-diagrams.org/protocol-state-machine-diagrams.html#protocol-state-machine</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            Interaction Diagram
+                        </p>
+                        <p>
+                            Sequence Diagram:
+                        </p>
+                        <p>
+                            <a href="https://creately.com/guides/sequence-diagram-tutorial/">https://creately.com/guides/sequence-diagram-tutorial/</a>
+                        </p>
+                        <p>
+                            <a href="https://www.lucidchart.com/pages/uml-sequence-diagram">https://www.lucidchart.com/pages/uml-sequence-diagram</a>
+                        </p>
+                        <p>
+                            <a href="https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-sequence-diagram/">https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-sequence-diagram/</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            Communication Diagram
+                        </p>
+                        <p>
+                            <a href="https://www.uml-diagrams.org/communication-diagrams.html">https://www.uml-diagrams.org/communication-diagrams.html</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            Timing Diagram:
+                        </p>
+                        <p>
+                            <a style="text-decoration:none;" href="https://www.uml-diagrams.org/timing-diagrams.html">https://www.uml-diagrams.org/timing-diagrams.html</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <p>
+                            Interaction Overview Diagram:
+                        </p>
+                        <p>
+                            <a style="text-decoration:none;" href="https://www.uml-diagrams.org/interaction-overview-diagrams.html">https://www.uml-diagrams.org/interaction-overview-diagrams.html</a>
+                        </p>
+                        <p>
+                            <a href="https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-interaction-overview-diagram/">https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-interaction-overview-diagram/</a>
+                        </p>
+                        <p>
+                            &nbsp;
+                        </p>
+                        </div>
+                        <!-- End Article Content -->
+
+                        <!-- Author -->
+                        <div class="news-author bg-dark-subtle shadow p-3 rounded-3 mt-3">
+                            <div class="row py-3">
+                                <div class="col-12">
+                                    <a href="../../index.html"><img src="../../Assets/Teams/krisna.jpg" alt="Krisna Santosa" class="img-fluid rounded-3 shadow" style="width: 75px;"></a>
+                                </div>
+                            </div>
+                            <div class="row author-detail py-3 g-0">
+                                <div class="col-8 col-md-10">
+                                    <h5>Written by Krisna Santosa</h5>
+                                    <p>15.3K Followers . <span class="text-dark-emphasis">Writer at </span> Technology and AI</p>
+                                    <p class="bio">An experienced tech enthusiast who has honed their skills for over 5 years, blending a love for reading and writing seamlessly with the world of technology. 
+                                      Email: <a href="mailto:krisnasantosa@upi.edu" class="text-black">krisnasantosa@upi.edu</a></p>
+                                </div>
+                                <div class="col-4 col-md-2 d-flex justify-content-end align-self-start">
+                                    <a href="../../index.html" class="btn btn-primary shadow-primary">Detail +</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <!-- Share Buttons -->
+                        <div class="row share-buttons py-3">
+                            <div class="col-12">
+                                <h4>Share This Article</h4>
+                                <div class="row social-media-buttons justify-content-between py-3 g-2">
+                                    <div class="col">
+                                      <a href="https://www.twitter.com" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter" class="social-media-link"><img src="../../Assets/Icons/Social-Media/twitter.svg" alt="Twitter" style="width: 35px; height: 35px; border-radius: 7px;" class="img-fluid shadow-icons-custom" loading="lazy"></a>
+                                    </div>
+                                    <div class="col">
+                                      <a href="https://www.facebook.com" class="social-media-link" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><img src="../../Assets/Icons/Social-Media/facebook.svg" alt="Facebook" style="width: 35px; height: 35px; border-radius: 7px;" class="img-fluid shadow-icons-custom" loading="lazy"></a>
+                                    </div>
+                                    <div class="col">
+                                      <a href="https://www.instagram.com" class="social-media-link" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><img src="../../Assets/Icons/Social-Media/instagram.svg" alt="Instagram" style="width: 35px; height: 35px; border-radius: 7px;" class="img-fluid shadow-icons-custom" loading="lazy"></a>
+                                      </div>
+                                    <div class="col">
+                                      <a href="https://www.linkedin.com" class="social-media-link" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin"><img src="../../Assets/Icons/Social-Media/linkedin.svg" alt="Linkedin" style="width: 35px; height: 35px; border-radius: 7px;" class="img-fluid shadow-icons-custom" loading="lazy"></a>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+
+                        <!-- Articles recommendation -->
+                        <div class="row articles-recommendation">
+                            <div class="col-12">
+                                <h4>Articles Recommendation</h4>
+                                <div class="articles-recommendation-detail py-2">
+                                    <a href="./sarjana-ditatas-kertas.html"><img src="./Uploads/sarjana-diatas-kertas.png" alt="Sarjana di Atas Kertas" class="img-fluid rounded-3 shadow"></a>
+                                    <div class="news-author py-3">
+                                        <a href="./sarjana-ditatas-kertas.html" class="nav-link news-link"><img src="../../Assets/Logo/K-logos_black.png" alt="Krisna Santosa" class="img-fluid rounded-2 d-inline shadow" style="width: 50px;">
+                                        <p class="d-inline">Krisna * 1 hour(s) ago</p></a>
+                                    </div>
+                                    <a href="./sarjana-ditatas-kertas.html" class="nav-link news-link"><h6>Sarjana di Atas Kertas: Bukti kegagalan sekolah di Indonesia?</h6></a>
+                                </div>
+
+                                <div class="articles-recommendation-detail py-2">
+                                    <a href="./kebijakan-sekolah-yang-salah.html"><img src="./Uploads/kebijakan-sekolah-yang-salah.jpeg" alt="Kebijakan Sekolah yang Salah" class="img-fluid rounded-3 shadow"></a>
+                                    <div class="news-author py-3">
+                                        <a href="./kebijakan-sekolah-yang-salah.html" class="nav-link news-link"><img src="../../Assets/Logo/K-logos_black.png" alt="Krisna Santosa" class="img-fluid rounded-2 d-inline shadow" style="width: 50px;">
+                                        <p class="d-inline">Krisna * 3 hour(s) ago</p></a>
+                                    </div>
+                                    <a href="./kebijakan-sekolah-yang-salah.html" class="nav-link news-link"><h6>Ketika kebijakan sekolah mengabaikan kesejahteraan siswa.</h6></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer bg-dark text-white-50 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 text-center text-md-start py-3">
+            <img src="../../Assets/Logo/K-logos_white.png" alt="" class="img-fluid" width="40%" loading="lazy">
+            <div class="footer-address">
+              <p>Jl. Pendidikan No.15, Cibiru Wetan, Kec. Cileunyi, Kabupaten Bandung, Jawa Barat 40625</p>
+              <p><strong>Email: </strong> krisnasantosa@upi.edu</p>
+              <p><strong>Tel: </strong> +62 813 1801 2627</p>
+            </div>
+          </div>
+          <div class="col-md-3 py-3">
+            <p class="text-white fw-bold">About Me</p>
+            <p><a href="../../index.html#introduce-item" class="nav-link footer-link">Introduce</a></p>
+            <p><a href="../../index.html#resume-item" class="nav-link footer-link">Resume</a></p>
+            <p><a href="../../index.html#portfolio-item" class="nav-link footer-link">Portfolio</a></p>
+            <p><a href="../../index.html#articles-item" class="nav-link footer-link">Articles</a></p>
+            <p><a href="../../index.html#contact-item" class="nav-link footer-link">Contact</a></p>
+          </div>
+          <div class="col-md-3 py-3">
+            <p class="text-white fw-bold">Follow Me</p>
+            <p><a href="https://www.facebook.com/krisna.santosa.7" class="nav-link footer-link"><img src="../../Assets/Icons/Social-Media/facebook-rounded.svg" alt="" class="img-fluid" style="width: 20px;" loading="lazy"> Facebook</a></p>
+            <p><a href="https://www.instagram.com/krisna.santosa_15" class="nav-link footer-link"><img src="../../Assets/Icons/Social-Media/instagram-rounded.svg" alt="" class="img-fluid" style="width: 20px;" loading="lazy"> Instagram</a></p>
+            <p><a href="https://www.youtube.com/channel/UCBCDGBupHuhfen-e1AJtXdw" class="nav-link footer-link"><img src="../../Assets/Icons/Social-Media/youtube-rounded.svg" alt="" class="img-fluid" style="width: 20px;" loading="lazy"> Youtube</a></p>
+            <p><a href="https://www.twitter.com/santosa_15" class="nav-link footer-link"><img src="../../Assets/Icons/Social-Media/twitter-rounded.svg" alt="" class="img-fluid" style="width: 20px;" loading="lazy"> Twitter</a></p>
+            <p><a href="https://www.linkedin.com/in/krisna-santosa/" class="nav-link footer-link"><img src="../../Assets/Icons/Social-Media/linkedin-rounded.svg" alt="" class="img-fluid" style="width: 20px;" loading="lazy"> Linkedin</a></p>
+          </div>
+          <div class="col-md-3 py-3 text-center">
+            <p class="text-white fw-bold">My Base</p>
+            <iframe class="ratio ratio-1x1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d555.7011432159233!2d107.72503633413045!3d-6.939790287947318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c323777ca3a1%3A0x355eff6734ed9167!2sUniversitas%20Pendidikan%20Indonesia%20-%20Kampus%20UPI%20Cibiru!5e0!3m2!1sen!2sid!4v1694142558576!5m2!1sen!2sid" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 border-top border-secondary text-center">
+            <p class="pt-3 fs-6"> © 2023 All rights reserved. Made with <span class="text-danger">❤</span> by Krisna Santosa.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Button to Upper the page -->
+    <div class="fixed-bottom justify-content-end d-flex me-4 mb-4">
+      <button class="btn btn-primary py-2 px-4" onclick="topFunction()" id="to-top">
+        ↑
+      </button>
+    </div>
+
+    <!-- Modal Contact Me -->
+    <div class="modal fade" id="contactMe" tabindex="-1" aria-labelledby="contactMeLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="hubungiKamiessage">Contact Me</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Recipient:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="sender-name" class="col-form-label">From:</label>
+                  <input type="text" class="form-control" id="sender-name">
+              </div>
+                <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Message:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" id="liveToastBtn" data-bs-dismiss="modal" >Send</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+              <!-- Toast -->
+    <div class="toast-container position-fixed top-0 end-0 p-3">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="true" data-bs-delay="2000">
+          <div class="toast-header">
+            <strong class="me-auto">Success</strong>
+            <small>just now</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            Message Delivered.
+          </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  
+        // Modal
+        const contactMe= document.getElementById('contactMe')
+        if (contactMe) {
+          contactMe.addEventListener('show.bs.modal', event => {
+            // Button that triggered the modal
+            const button = event.relatedTarget
+            // Extract info from data-bs-* attributes
+            const recipient = button.getAttribute('data-bs-whatever')
+            // If necessary, you could initiate an Ajax request here
+            // and then do the updating in a callback.
+  
+            // Update the modal's content.
+            const modalTitle = contactMe.querySelector('.modal-title')
+            const modalBodyInput = contactMe.querySelector('.modal-body input')
+  
+            modalTitle.textContent = `Send message to ${recipient}`
+            modalBodyInput.value = recipient
+          })
+        }
+  
+        // Toast
+        const toastTrigger = document.getElementById('liveToastBtn')
+        const toastLiveExample = document.getElementById('liveToast')
+  
+        if (toastTrigger) {
+          const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+          toastTrigger.addEventListener('click', () => {
+            toastBootstrap.show()
+          })
+        }
+    </script>
+    <script src="./toc.js"></script>
+  </body>
+</html>

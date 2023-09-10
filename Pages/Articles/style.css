@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700');
+html,body {
+  font-family: 'Rubik', sans-serif;
+  scroll-behavior: smooth;
+}
+
+header.fixed-top {
+  background-color: white !important;
+  /* bg-opacity-70 */
+  background-color: rgba(255, 255, 255, 0.70) !important;
+  backdrop-filter: blur(10px) !important;
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.30) !important;
+}
+
+.border-bottom-title {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+  
+.border-bottom-title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -7px;
+  transform: translateX(-50%);
+  width: 30px;
+  border-bottom: 2px solid #0d6efd;
+}
+
+.card-body .card-text, .tags-container .card-tags {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.card-body .card-text {
+  -webkit-line-clamp: 3;
+}
+
+.tags-container .card-tags {
+  -webkit-line-clamp: 2;
+}
+
+.shadow-primary {
+  box-shadow: 0px 4px 8px rgba(13, 110, 253, 0.3) !important;
+}
+
+.shadow-icons-custom {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Start Social Media Buttons */
+.social-media-buttons .col .social-media-link img {
+  border-bottom: 2px solid transparent;
+  /* transition */
+  transition: border-bottom 0.3s;
+}
+
+.social-media-buttons .col .social-media-link img:hover {
+  border-bottom: 2px solid #0d6efd;
+}
+
+/* End Social Media Buttons */
+
+/* Start (Navbar border-bottom) */
+.navbar-nav li {
+  position: relative;
+}
+
+/* Medium screen, left is 0 */
+@media (min-width: 992px) {
+  .navbar-nav a::after {
+    width: 0 !important;
+    left: 25% !important;
+  }
+  .navbar-nav a:hover::after {
+    width: 50% !important;
+    left: 25% !important;
+  }
+}
+
+.navbar-nav a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -3px; /* Adjust this value to control the distance of the border from the text */
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #007bff; /* Change this to the desired border color */
+  transition: width 0.3s; /* Adjust the duration for the animation */
+}
+
+.navbar-nav a:hover::after {
+  width: 20%;
+  left: 0;
+}
+/* End Navbar border-bottom */
+
+/* Start Overlay */
+.position-relative {
+  overflow: hidden; /* Hide the overlay content when not hovering */
+}
+
+.overlay-content {
+  background-color: rgba(0, 0, 0, 0.6); 
+  opacity: 0; /* Hide the overlay initially */
+  transition: opacity 0.3s; /* fade-in effect */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+.position-relative:hover .overlay-content {
+  opacity: 1; /* Show the overlay on hover */
+}
+
+.overlay-content a.btn {
+  opacity: 0; /* Hide the button initially */
+  transform: translateY(20px); /* Move the button down to create a slide-up effect */
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.position-relative:hover .overlay-content a.btn {
+  opacity: 1; /* Show the button on hover */
+  transform: translateY(0); /* Move the button back to its original position */
+}
+
+.overlay-content .overlay-button {
+  opacity: 0; /* Hide the button initially */
+  transform: translateY(20px); /* Move the button down to create a slide-up effect */
+  transition: opacity 0.3s, transform 0.3s;
+  border-radius: 50%;
+}
+
+.position-relative:hover .overlay-content .overlay-button {
+  opacity: 1; /* Show the button on hover */
+  transform: translateY(0); /* Move the button back to its original position */
+}
+
+.overlay-content .overlay-button:hover {
+  background-color: #0d6efd;
+}
+
+/* End Overlay */
+
+/* Start Footer Link */
+.footer-link {
+  /* Set the initial position of the element */
+  margin-left: 0;
+  transition: margin-left 0.2s ease;
+}
+
+.footer-link:hover {
+  /* Apply the hover animation to move the element to the right */
+  margin-left: 10px;
+}
+
+/* End Footer Link */
+
+/* Halaman Tentang Kami */
+.tab-pills-tentang-kami.active, .tab-pills-tentang-kami:hover {
+  background-color: white !important;
+  color: #0d6efd !important;
+}
+
+/* End Halaman Tentang Kami */
+
+/* Halaman Berita */
+.nav-link.news-link:hover {
+  color: #0d6efd;
+}
